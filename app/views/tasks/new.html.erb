@@ -1,0 +1,17 @@
+<div class="container mt-3">
+  <h1 class='mb-3'> Add a task: </h1>
+  <%= form_with model: @task do |f| %>
+    <%= f.label :title %>
+    <%= f.text_field :title %>
+    <%= f.label :details %>
+    <%= f.text_field :details %>
+    <%= f.submit %>
+  <% end %>
+  <p class='mt-3'>
+    <%= link_to tasks_path do%>
+    <i class="fa-solid fa-house fa-lg" style="color: #3f9fab;"></i>
+    <% end %>
+  </p>
+
+
+</div>
