@@ -13,13 +13,3 @@
  *= require_tree .
  *= require_self
  */
- .task-link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 100%;
- }
-
- .tasks {
-  position: relative;
- }
